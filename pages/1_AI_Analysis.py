@@ -64,9 +64,9 @@ if st.session_state.stage =="input":
         st.subheader("Choose Companies")
         c1,c2,c3 = st.columns([3,3,1])
         with c1:
-            company_1 = st.text_input("Enter first company name", value=st.session_state.co1, key="co1")
+            company_1 = st.text_input("Enter first company name", key="co1")
         with c2:
-            company_2 = st.text_input("Enter second company name", value=st.session_state.co2, key="co2")
+            company_2 = st.text_input("Enter second company name", key="co2")
         with c3:
             st.write("")
             st.write("")
@@ -167,6 +167,9 @@ if st.session_state.stage == "running":
 
                 stage_ex1.success("Chart created successfully!")
         else:
+            st.session_state.chart_plan = "[]"
+            st.session_state.df = pd.DataFrame()
+            
             stage_ex1 = st.status("No company financial reports found in database. Skipping chart creation.")
 
         stage4 = st.status("Running Due Diligence Agent...", expanded=True)
@@ -225,15 +228,25 @@ if st.session_state.stage == "result":
     st.html(company_2_html.content)
     st.html(strategy_html.content)
     st.html(valuation_html.content)
-    render_charts(st.session_state.chart_plan, st.session_state.df)
+    if st.session_state.chart_plan != "[]":
+        render_charts(st.session_state.chart_plan, st.session_state.df)
     st.write(chart_fig_analysis)
     st.html(due_diligence_html.content)
 
 
     pdf_file = report.to_pdf()
-    st.download_button(
-        label="📥 Download Full Report as PDF",
-        data=pdf_file,
-        file_name="report.pdf",
-        mime="application/pdf"
-    )
+    with st.spinner("Generating PDF..."):
+        st.download_button(
+            label="📥 Download Full Report as PDF",
+            data=report.to_pdf(),
+            file_name="report.pdf",
+            mime="application/pdf"
+        )
+
+
+
+def display_html(content):
+    header = """
+    
+    """
+    st.html(content)

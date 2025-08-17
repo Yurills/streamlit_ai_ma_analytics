@@ -46,7 +46,7 @@ Here is the JSON input:
         
         return AgentResult(
             title="HTML Report",
-            content=response.content,
+            content=self.cleanOutput(response.content),
             data={
                 "input": json_input,
                 "metadata": response.response_metadata

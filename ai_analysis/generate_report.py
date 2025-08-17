@@ -139,14 +139,16 @@ class ReportGenerator:
         html += self.strat
         html += self.var
         
-        #wrapping charts
-        img_tags = "".join(self._fig_to_base64_img(fig) for fig in self.chart)
-        html += f'''
-        <div style="display:grid;grid-template-columns:repeat(2, 1fr);gap:10px;max-width:100%;">
-        {img_tags}
-        </div>
-        '''
-        html += self.chart_analysis
+        
+        if self.chart_plan != "[]":
+          #wrapping charts
+          img_tags = "".join(self._fig_to_base64_img(fig) for fig in self.chart)
+          html += f'''
+          <div style="display:grid;grid-template-columns:repeat(2, 1fr);gap:10px;max-width:100%;">
+          {img_tags}
+          </div>
+          '''
+          html += self.chart_analysis
 
         html += self.due
         html += self.getFooter()
