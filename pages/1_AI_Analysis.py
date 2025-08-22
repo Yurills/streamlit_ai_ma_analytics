@@ -230,7 +230,7 @@ if st.session_state.stage == "result":
     st.html(valuation_html.content)
     if st.session_state.chart_plan != "[]":
         render_charts(st.session_state.chart_plan, st.session_state.df)
-    st.write(chart_fig_analysis)
+        st.write(chart_fig_analysis)
     st.html(due_diligence_html.content)
 
 
