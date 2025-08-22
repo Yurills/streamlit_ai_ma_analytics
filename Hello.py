@@ -3,7 +3,7 @@ import streamlit as st
 from dotenv import load_dotenv
 
 load_dotenv()
-kaleido.get_chrome_sync()
+# kaleido.get_chrome_sync()
 
 
 st.set_page_config(
