@@ -140,7 +140,7 @@ class ReportGenerator:
         html += self.var
         
         
-        if self.chart_plan != "[]":
+        if len(self.chart) > 0:
           #wrapping charts
           img_tags = "".join(self._fig_to_base64_img(fig) for fig in self.chart)
           html += f'''
