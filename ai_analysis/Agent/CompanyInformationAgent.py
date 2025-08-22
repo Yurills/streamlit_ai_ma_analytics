@@ -237,7 +237,7 @@ Description: {company_description}
     "EBITDA": "3,447.33 MM THB",
     "EV/EBITDA" : "11/40",
     "P/E(x)": "22.99",
-    "P/BV(x)" : "1.81",
+    "P/BV(x)": "1.81"
   },
   "strategy": {
     "vision": "Leading Asian hospitality brand",
