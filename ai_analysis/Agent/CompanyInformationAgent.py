@@ -166,8 +166,8 @@ Guidelines:
 - Output must be valid JSON that can be parsed without errors.
 
 User data:
-Company name: {{company_name}}
-Description: {{company_description}}
+Company name: {company_name}
+Description: {company_description}
        
         """
         
