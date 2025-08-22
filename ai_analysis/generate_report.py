@@ -1,10 +1,12 @@
 import base64
 import os
+import kaleido
 import plotly.io as pio
 import requests
 
 
 convert_api_key = os.getenv("CONVERT_API_KEY")
+
 
 class ReportGenerator:
 
