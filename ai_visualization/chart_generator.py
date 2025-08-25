@@ -26,7 +26,7 @@ def create_chart_line(df, chart):
         color="Company",
         markers=True,
         title=chart["title"],
-        color_discrete_sequence=px.colors.qualitative.Plotly
+        color_discrete_sequence=["#8b0a19", "#dbba7d"]
     )
     return fig
     #st.plotly_chart(fig, use_container_width=True)
@@ -54,7 +54,7 @@ def create_chart_bar(df, chart):
         color="Company",
         title=chart["title"],
         text_auto=True,
-        color_discrete_sequence=px.colors.qualitative.Plotly
+        color_discrete_sequence=["#8b0a19", "#dbba7d"]
     ).update_traces(width=0.3).update_layout(bargap=0.2, bargroupgap=0.1)
     return fig
     # st.plotly_chart(fig, use_container_width=True)
