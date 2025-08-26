@@ -44,7 +44,7 @@ Company Data:
 ### ✅ Output Specification
 
 Always output a structured JSON object using the following format:
-
+EXAMPLE! CHANGE THE VALUE ACCORDINGLY
 ```json
 {{
   "strategicSummary": {{

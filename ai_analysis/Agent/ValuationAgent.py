@@ -44,6 +44,7 @@ Strategic Analysis:
 
 ### ✅ Output Format (JSON)
 
+EXAMPLE! CHANGE THE VALUE ACCORDINGLY
 ```json
 {{
   "valuationSummary": {{
