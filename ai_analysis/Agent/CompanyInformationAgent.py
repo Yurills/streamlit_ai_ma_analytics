@@ -294,55 +294,84 @@ Description: {company_description}
         if company_name == "iberry":
             return """
           {
-        "target" : {
-  "companyName": "iberry Group",
-  "industry": "F&B / Ice Cream Cafe",
-  "hqLocation": "Bangkok, Thailand",
-  "website": "https://iberryhomemade.com",
-  "businessModel": "Own stores and franchise",
-  "numberOfStores": 90,
-  "brands": ["iberry", "Kub Kao Kub Pla", "Ros’niyom","iBERISTA","Rongsi Pochana", "Charoen Gang", "BurnBusaba", "Fá Plā Tahń", ""Ruam Mitr Cloud Kitchen],
-  "financials": {
-   "currentRevenue": "3161.93 THB mm",
-    "forecastedRevenue": ["3840.16 THB mm in 2025", "4608.20 THB mm in 2026", "5443.66 THB mm in 2027"],
-    "currentEBITDA": "758.27 THB mm",
-    "forecastedEBITDA": ["943.26 THB mm in 2025", "1118.51 THB mm in 2026", "1329.21 THB mm in 2027"],
-    "currentNetIncome": "581.54 THB mm",
-    "forecasedtNetIncome": ["733.86 THB mm in 2025", "871.78 THB mm in 2026", "1040.48 THB mm in 2027"]
-
-  },
-  "customers": "Young adults, Families, Tourists",
-  "marketPosition": "Premium ice cream and restaurant brand",
-  "mainCompetitors": ["Minor Food Group", "Oishi Group", "MK Restaurant Group", "S&P Syndicate", "Greyhound Cafe"],
-  "synergyPotential": [
-    "Expand Hotel F&B",
-    "Cross-selling",
-    "Shared supply chain"
-  ], 
-  "strategicRationale": "Access to premium local brand with established retail footprint",
-  "ownership": {
-    "founders": ["Atchara Burarak"]
-    "currentShareholding": "100% privately held"
-  },
-  "assets": [
-    "Central Kitchen",
-    "75 Store Leases",
-    "iberry Trademark",
-    "400 Employees"
-  ],
-  "risks": [
-    "Seasonal sales",
-    "High competition",
-    "Brand management dependency"
-  ],
-  "plans": [
-    "Expand central kitchen / factory capacity to support more stores and new products",
-    "Open new flagship stores in prime Bangkok locations",
-    "Develop new premium dessert lines",
-    "Explore franchising opportunities in SEA markets"
-  ],
-  "history": "Founded 1999, expanded to 75 stores by 2023, no major M&A recorded"
-}
+    "target": {
+        "companyName": "iberry Group",
+        "industry": "F&B / Ice Cream Cafe",
+        "hqLocation": "Bangkok, Thailand",
+        "website": "https://iberryhomemade.com",
+        "businessModel": "Own stores and franchise",
+        "numberOfStores": 90,
+        "brands": [
+            "iberry",
+            "Kub Kao Kub Pla",
+            "Ros’niyom",
+            "iBERISTA",
+            "Rongsi Pochana",
+            "Charoen Gang",
+            "BurnBusaba",
+            "Fá Plā Tahń",
+            "Ruam Mitr Cloud Kitchen"
+        ],
+        "financials": {
+            "currentRevenue": "3161.93 THB mm",
+            "forecastedRevenue": [
+                "3840.16 THB mm in 2025",
+                "4608.20 THB mm in 2026",
+                "5443.66 THB mm in 2027"
+            ],
+            "currentEBITDA": "758.27 THB mm",
+            "forecastedEBITDA": [
+                "943.26 THB mm in 2025",
+                "1118.51 THB mm in 2026",
+                "1329.21 THB mm in 2027"
+            ],
+            "currentNetIncome": "581.54 THB mm",
+            "forecasedtNetIncome": [
+                "733.86 THB mm in 2025",
+                "871.78 THB mm in 2026",
+                "1040.48 THB mm in 2027"
+            ]
+        },
+        "customers": "Young adults, Families, Tourists",
+        "marketPosition": "Premium ice cream and restaurant brand",
+        "mainCompetitors": [
+            "Minor Food Group",
+            "Oishi Group",
+            "MK Restaurant Group",
+            "S&P Syndicate",
+            "Greyhound Cafe"
+        ],
+        "synergyPotential": [
+            "Expand Hotel F&B",
+            "Cross-selling",
+            "Shared supply chain"
+        ],
+        "strategicRationale": "Access to premium local brand with established retail footprint",
+        "ownership": {
+            "founders": [
+                "Atchara Burarak"
+            ],
+            "currentShareholding": "100% privately held"
+        },
+        "assets": [
+            "Central Kitchen",
+            "75 Store Leases",
+            "iberry Trademark",
+            "400 Employees"
+        ],
+        "risks": [
+            "Seasonal sales",
+            "High competition",
+            "Brand management dependency"
+        ],
+        "plans": [
+            "Expand central kitchen / factory capacity to support more stores and new products",
+            "Open new flagship stores in prime Bangkok locations",
+            "Develop new premium dessert lines",
+            "Explore franchising opportunities in SEA markets"
+        ],
+        "history": "Founded 1999, expanded to 75 stores by 2023, no major M&A recorded"
+    }
 }
         """
         
