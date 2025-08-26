@@ -42,48 +42,6 @@ Company Data:
 Strategic Analysis:
 {strategy}
 
-### ✅ Output Format (JSON)
-
-EXAMPLE! CHANGE THE VALUE ACCORDINGLY
-```json
-{{
-  "valuationSummary": {{
-    "adjustedEBITDA": "e.g., 80M THB",
-    "suggestedMultiple": "e.g., 8.5x",
-    "valuationMethod": "Comparable companies, precedent transactions, DCF (choose and explain)",
-    "valuationRange": {{
-      "low": "e.g., 640M THB",
-      "high": "e.g., 720M THB"
-    }},
-    "premiumAdjustment": "e.g., +10% strategic premium for brand equity and cultural alignment",
-    "dealStructureRecommendation": "e.g., 70% cash, 30% 2-year earn-out tied to EBITDA threshold",
-    "leverageGuidance": "Recommended leverage (e.g., max 2.0x Debt/EBITDA)",
-    "riskSensitivity": [
-      "If central kitchen lease cannot be renewed, reduce valuation by 10%",
-      "If same-store sales decline >5% YoY, apply discount to multiple"
-    ],
-    "valuationRedFlags": [
-      {{
-        "area": "Financial Integrity",
-        "note": "No audited statements in past 3 years"
-      }},
-      {{
-        "area": "Asset Risk",
-        "note": "Key operational asset is leased with short-term visibility"
-      }},
-      {{
-        "area": "Market Risk",
-        "note": "Significant exposure to foreign exchange fluctuations"
-      }},
-      {{
-        "area": "Regulatory Risk",
-        "note": "Pending litigation could impact financials"
-      }}
-    ],
-      
-  }}
-}}
-
     """
     
     

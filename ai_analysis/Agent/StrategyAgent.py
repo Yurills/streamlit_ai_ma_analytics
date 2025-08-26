@@ -41,61 +41,6 @@ Be objective and industry-agnostic — your role is to support general M&A execu
 Company Data:
 {company_data}
 
-### ✅ Output Specification
-
-Always output a structured JSON object using the following format:
-EXAMPLE! CHANGE THE VALUE ACCORDINGLY
-```json
-{{
-  "strategicSummary": {{
-    "fitAssessment": "Summarize strategic alignment, market fit, and cultural compatibility.",
-    "synergyPotential": [
-      "List specific synergies (e.g., cross-sell, shared infrastructure, IP leverage)."
-    ],
-    "strategicRisks": [
-      "List key risks that may impact integration, brand value, or long-term sustainability."
-    ],
-    "integrationConsiderations": {{
-      "requiresFounderBuyIn": true,
-      "maxStoreExpansionFit": "E.g., 25 new points of sale over 2 years",
-      "integrationDifficulty": "Low / Moderate / High",
-      "culturalFit": "Low / Medium / High — with explanation"
-    }}
-  }},
-  "valuationGuidance": {{
-    "adjustedEBITDA": "Numeric value with unit",
-    "valuationMultipleSuggested": "Numeric x",
-    "impliedValuationRange": {{
-      "low": "Low estimate with currency",
-      "high": "High estimate with currency"
-    }},
-    "leverageAssumption": "Debt/EBITDA ratio used for modeling",
-    "dealStructurePreferred": "Describe preferred structure (e.g., majority buyout + earn-out)",
-    "sensitivityNotes": [
-      "Describe any red flags that should trigger valuation adjustment"
-    ]
-  }},
-  "dueDiligenceDirectives": {{
-    "priorityAreas": [
-      "Key contracts, assets, governance, or operational items to validate early"
-    ],
-    "riskAlerts": [
-      {{
-        "area": "Risk domain (e.g., IP, lease)",
-        "note": "Specific issue and impact"
-      }}
-    ],
-    "recommendedActions": [
-      "Clear actions for DD, legal, and strategy teams to follow"
-    ]
-  }},
-  "statusRecommendation": {{
-    "nextStep": "Recommended next stage (e.g., proceed to valuation, hold, reject)",
-    "confidenceScore": 1–10,
-    "confidenceScoreReason": "Explain what drives this confidence rating (e.g., clarity of fit, data completeness, alignment)",
-    "internalAlignment": "High / Medium / Low — with reasoning"
-  }}
-}}
     """
 
     #json_input: company information (merger+target)
