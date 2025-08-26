@@ -228,16 +228,15 @@ Description: {company_description}
   "companyName": "Central Plaza Hotel Public Co., Ltd.",
   "industry": "Foods / Hotels",
   "website": "https://www.centarahotelsresorts.com",
+  "investorWebsite": "https://investor.centarahotelsresorts.com/en",
   "financials": {
-    "paid-up": "1,350.00 MM THB",
-    "price" : "28.75 THB",
-    "marketCap": "38,812.50 MM THB",
-    "52weekHighLow": "41.25 / 19.40",
-    "EV": "76,504.34 MM THB",
-    "EBITDA": "3,447.33 MM THB",
-    "EV/EBITDA" : "11/40",
-    "P/E(x)": "22.99",
-    "P/BV(x)": "1.81"
+    "currentRevenue": "23949.5 THB mm",
+    "forecastedRevenue": ["26356.4 THB mm in 2025", "28847.1 THB mm in 2026", "31021.0 THB mm in 2027"],
+    "currentEBITDA": "2809.5 THB mm",
+    "forecastedEBITDA": ["1178.5 THB mm in 2025", "2245.6 THB mm in 2026", "2130.1 THB mm in 2027"],
+    "currentNetIncome": "1696.1 THB mm",
+    "forecasedtNetIncome": ["872.5 THB mm in 2025", "1349.5 THB mm in 2026", "1315.7 THB mm in 2027"]
+
   },
   "strategy": {
     "vision": "Leading Asian hospitality brand",
@@ -247,7 +246,7 @@ Description: {company_description}
   "dealCriteria": {
     "targetRevenueMin": "100M THB",
     "targetEBITDAMarginMin": "15%",
-    "preferredMultiple": "8-10x EBITDA",
+    "preferredMultiple": "8-10x EV/EBITDA",
     "maxTicketSize": "2,000M THB",
     "geographyFit": "Thailand and Southeast Asia",
     "brandFit": "Premium / Lifestyle with strong local cultural identity"
@@ -275,10 +274,9 @@ Description: {company_description}
   },
   "pastDeals": [
     {
-      "name": "JV Maldives",
-      "size": "approx $xxM",
-      "outcome": "Active and profitable partnership focused on resort segment"
-    }
+      "name": "Invest in Centara Mirage Lagoon Maldives & Centara Grand Lagoon Maldives",
+      "size": "4500 - 5000 THB mm"
+         }
   ],
   "integrationCapability": "Experienced integrating new properties, central systems, and brand standards across multiple markets. Proven ability to manage joint ventures and partnerships with clear governance structures.",
   "integrationConstraints": {
@@ -302,31 +300,35 @@ Description: {company_description}
   "hqLocation": "Bangkok, Thailand",
   "website": "https://iberryhomemade.com",
   "businessModel": "Own stores and franchise",
-  "numStores": 50,
-  "brands": ["iberry", "Another Hound", "Greyhound Cafe"],
+  "numberOfStores": 90,
+  "brands": ["iberry", "Kub Kao Kub Pla", "Ros’niyom","iBERISTA","Rongsi Pochana", "Charoen Gang", "BurnBusaba", "Fá Plā Tahń", ""Ruam Mitr Cloud Kitchen],
   "financials": {
-    "revenue": "500M THB",
-    "ebitda": "80M THB",
-    "grossMargin": "65%",
-    "debt": "50M THB"
+   "currentRevenue": "3161.93 THB mm",
+    "forecastedRevenue": ["3840.16 THB mm in 2025", "4608.20 THB mm in 2026", "5443.66 THB mm in 2027"],
+    "currentEBITDA": "758.27 THB mm",
+    "forecastedEBITDA": ["943.26 THB mm in 2025", "1118.51 THB mm in 2026", "1329.21 THB mm in 2027"],
+    "currentNetIncome": "581.54 THB mm",
+    "forecasedtNetIncome": ["733.86 THB mm in 2025", "871.78 THB mm in 2026", "1040.48 THB mm in 2027"]
+
   },
   "customers": "Young adults, Families, Tourists",
-  "marketPosition": "Premium ice cream and restaurant",
-  "mainCompetitors": ["Swensen's", "Haagen Dazs"],
+  "marketPosition": "Premium ice cream and restaurant brand",
+  "mainCompetitors": ["Minor Food Group", "Oishi Group", "MK Restaurant Group", "S&P Syndicate", "Greyhound Cafe"],
   "synergyPotential": [
     "Expand Hotel F&B",
     "Cross-selling",
     "Shared supply chain"
-  ],
+  ], 
   "strategicRationale": "Access to premium local brand with established retail footprint",
   "ownership": {
-    "founders": ["Name A", "Name B"],
+    "founders": ["Atchara Burarak"]
     "currentShareholding": "100% privately held"
   },
   "assets": [
     "Central Kitchen",
-    "50 Store Leases",
-    "iberry Trademark"
+    "75 Store Leases",
+    "iberry Trademark",
+    "400 Employees"
   ],
   "risks": [
     "Seasonal sales",
@@ -339,8 +341,8 @@ Description: {company_description}
     "Develop new premium dessert lines",
     "Explore franchising opportunities in SEA markets"
   ],
-  "history": "Founded 1999, expanded to 50 stores by 2023, no major M&A recorded"
-  }
+  "history": "Founded 1999, expanded to 75 stores by 2023, no major M&A recorded"
+}
 }
         """
         

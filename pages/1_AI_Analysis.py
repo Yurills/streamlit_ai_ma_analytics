@@ -79,8 +79,8 @@ if st.session_state.stage =="input":
             company_clicked = st.button("Compare", use_container_width=True)
         st.write("Optional:")
         with st.expander("Additional Information"):
-            company_1_info = st.text_area("Enter additional information for " + company_1, height=100, key="co1_info")
-            company_2_info = st.text_area("Enter additional information for " + company_2, height=100, key="co2_info")
+            company_1_info = st.text_area("Enter additional information for " + company_1 + " (for example, company description, financial information, etc.)", height=100, key="co1_info")
+            company_2_info = st.text_area("Enter additional information for " + company_2 + " (for example, company description, financial information, etc.)", height=100, key="co2_info")
     if company_clicked:
         co1 = st.session_state.get("co1", "").strip()
         co2 = st.session_state.get("co2", "").strip()
