@@ -69,6 +69,14 @@ Strategic Analysis:
       {{
         "area": "Asset Risk",
         "note": "Key operational asset is leased with short-term visibility"
+      }},
+      {{
+        "area": "Market Risk",
+        "note": "Significant exposure to foreign exchange fluctuations"
+      }},
+      {{
+        "area": "Regulatory Risk",
+        "note": "Pending litigation could impact financials"
       }}
     ],
       
