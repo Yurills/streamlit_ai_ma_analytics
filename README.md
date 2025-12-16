@@ -83,29 +83,5 @@ The application logic is split into analysis and visualization:
   * **`ai_analysis/`**: Modify this folder to change prompt templates, model parameters, or LangChain agents.
   * **`ai_visualization/`**: Edit this folder to change how data is plotted (e.g., switching from Matplotlib to Plotly).
 
-## 🔮 Future Roadmap
-
-  * [ ] Integration with Bloomberg/Capital IQ APIs for real-time data.
-  * [ ] Export functionality (PDF/PPTX) for final investment memos.
-  * [ ] Sentiment analysis on news and earnings calls.
-  * [ ] Multi-document comparison for competitor analysis.
-
-## 🤝 Contributing
-
-Contributions are welcome\! Please feel free to submit a Pull Request.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
------
-
 **Author**: [Yurills](https://www.google.com/search?q=https://github.com/Yurills)
 
-```
